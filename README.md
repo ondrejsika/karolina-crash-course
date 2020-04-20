@@ -5,47 +5,12 @@
 
 ## Agenda
 
-- [Bash](#bash)
+- [Terminal](#Terminal)
 - Python
 - SQL
 - ElasticSearch
 
-## Bash
-
-### Basic Commands
-
-- `pwd` - print working directory
-- `mkdir <dir>` -
-- `ls` - list directory
-- `cd <dir>` - change directory
-- `cat <file>` - print out file
-- `touch <file>` - create new blank file
-- `cp <from> <to>` - copy
-- `mv <from> <to>` - move
-- `echo <text>` - text
-- `tree` - show directory structure tree
-
-```
-pwd
-mkdir -p tmp/foo
-cd tmp/foo
-touch a b
-echo hello > c
-ls
-ls -al
-mkdir x
-mv a b x
-ls
-ls x
-cp c x/bar
-ls
-ls x
-cat c
-cat x/bar
-rm c
-rm x
-rm -rf x
-```
+## Terminal
 
 ### Terminal Shortcuts
 
@@ -88,6 +53,42 @@ This will cause you to exit the current shell in Terminal.
 #### Control + B
 
 This shortcut moves the cursor back to the previous character on the line. It gives you the same result as using the left arrow key, but keeps you on the home row keys.
+
+
+### Basic Commands
+
+- `pwd` - print working directory
+- `mkdir <dir>` -
+- `ls` - list directory
+- `cd <dir>` - change directory
+- `cat <file>` - print out file
+- `touch <file>` - create new blank file
+- `cp <from> <to>` - copy
+- `mv <from> <to>` - move
+- `echo <text>` - text
+- `tree` - show directory structure tree
+
+```
+pwd
+mkdir -p tmp/foo
+cd tmp/foo
+touch a b
+echo hello > c
+ls
+ls -al
+mkdir x
+mv a b x
+ls
+ls x
+cp c x/bar
+ls
+ls x
+cat c
+cat x/bar
+rm c
+rm x
+rm -rf x
+```
 
 ## Resources
 
